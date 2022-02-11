@@ -1,0 +1,68 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-antenna {
+  width: 0.9423828125em;
+}
+
+.icon-brand {
+  width: 1.3408203125em;
+}
+
+.icon-clock {
+  width: 0.9716796875em;
+}
+
+.icon-company {
+  width: 1.0712890625em;
+}
+
+.icon-envelope {
+  width: 1.3330078125em;
+}
+
+.icon-facebook {
+  width: 0.5498046875em;
+}
+
+.icon-foster {
+  width: 2.0234375em;
+}
+
+.icon-graphics {
+  width: 1.2958984375em;
+}
+
+.icon-group {
+  width: 2.0888671875em;
+}
+
+.icon-phone {
+  width: 0.625em;
+}
+
+.icon-tagline {
+  width: 0.76953125em;
+}
+
+.icon-twitter {
+  width: 1.111328125em;
+}
+
+.icon-Union {
+  width: 0.8720703125em;
+}

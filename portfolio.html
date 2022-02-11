@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container">
+        <div class="header-flexy">
+          <a href="./index.html" class="logo-main">
+            <span class="logo-main__accent">Web</span>Studio</a
+          >
+          <nav>
+            <ul class="navigation no-style-list">
+              <li class="navigation__item">
+                <a
+                  class="navigation__link"
+                  href="./index.html"
+                  target="_self"
+                  >Студия</a
+                >
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link navigation__link--is-active" href="./portfolio.html" target="_self">Портфолио</a>
+              </li>
+              <li class="navigation__item">
+                <a class="navigation__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <ul class="contacts no-style-list">
+            <li class="contacts__item">
+              <a class="contacts__mail" href="info@devstudio.com">
+                <svg class="icon-envelope" width="16" height="12">
+                  <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts__item">
+              <a class="contacts__tel" href="tel:+380961111111">
+                <svg class="icon-phone" width="10" height="16">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="portfolio-main">
+        <div class="container">
+          <ul class="filter-btns no-style-list">
+            <li class="filter-btns__item">
+              <button class="filter-btn" type="button">Все</button>
+            </li>
+            <li class="filter-btns__item">
+              <button class="filter-btn" type="button">Веб-сайты</button>
+            </li>
+            <li class="filter-btns__item">
+              <button class="filter-btn" type="button">Приложения</button>
+            </li>
+            <li class="filter-btns__item">
+              <button class="filter-btn" type="button">Дизайн</button>
+            </li>
+            <li class="filter-btns__item">
+              <button class="filter-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="portfolio-cards no-style-list">
+            <li class="product">
+              <div class="relative">
+                <img
+                  class="product__img"
+                  src="images/portfolio-img/laptop.jpg"
+                  alt="Laptop with people on the screen"
+                />
+                <div class="product-overlay">
+                  <p class="product-overlay__text">
+                    Технокряк это современная площадка распространения коронавируса. Компании
+                    используют эту платформу для цифрового шпионажа и атак на защищённые сервера
+                    конкурентов.
+                  </p>
+                </div>
+              </div>
+              <h2 class="product__header">Технокряк</h2>
+              <p class="product__subheader">Веб-сайт</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/basketball.jpg"
+                alt="Two basketball players"
+              />
+              <h2 class="product__header">Постер New Orlean vs Golden Star</h2>
+              <p class="product__subheader">Дизайн</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/seafood.jpg"
+                alt="Fish with slogan"
+              />
+              <h2 class="product__header">Ресторан Seafood</h2>
+              <p class="product__subheader">Приложение</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/prime.jpg"
+                alt="Black earphones"
+              />
+              <h2 class="product__header">Проект Prime</h2>
+              <p class="product__subheader">Маркетинг</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/boxes.jpg"
+                alt="Two boxes"
+              />
+              <h2 class="product__header">Проект Boxes</h2>
+              <p class="product__subheader">Приложение</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/monitor.jpg"
+                alt="PC monitor"
+              />
+              <h2 class="product__header">Inspiration has no Borders</h2>
+              <p class="product__subheader">Веб-сайт</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/book.jpg"
+                alt="Opened book"
+              />
+              <h2 class="product__header">Издание Limited Edition</h2>
+              <p class="product__subheader">Дизайн</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/label.jpg"
+                alt="White label"
+              />
+              <h2 class="product__header">Проект LAB</h2>
+              <p class="product__subheader">Маркетинг</p>
+            </li>
+            <li class="product">
+              <img
+                class="product__img"
+                src="images/portfolio-img/business.jpg"
+                alt="Hands on laptop"
+              />
+              <h2 class="product__header">Growing Business</h2>
+              <p class="product__subheader">Приложение</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="basement">
+      <div class="container flexy">
+        <div class="basement-logo-and-address">
+          <a href="index.html" class="basement-logo logo-main">
+            <span class="logo-main__accent">Web</span><span class="basement-logo">Studio</span>
+          </a>
+          <address class="basement-address">
+            <ul class="basement-address-list no-style-list">
+              <li>
+                <a class="basement-address__phys-address" href="#"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li>
+                <a class="basement-address__mail" href="info@example.com">info@example.com</a>
+              </li>
+              <li>
+                <a class="basement-address__tel" href="tel:+380991111111">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="basement-social">
+          <h2 class="basement-social__header">Присоединяйтесь</h2>
+          <ul class="basement-social-icons no-style-list">
+            <li class="basement-social-icons__item">
+              <a class="our-team-social-icon" href="https://www.instagram.com">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="basement-social-icons__item">
+              <a class="our-team-social-icon" href="https://www.twitter.com">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="basement-social-icons__item">
+              <a class="our-team-social-icon" href="https://facebook.com">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="basement-social-icons__item">
+              <a class="our-team-social-icon" href="https://www.linkedin.com">
+                <svg class="social-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <form class="basement-form">
+          <label for="basement-email" class="basement-form__label">Подпишитесь на рассылку</label>
+          <input
+            type="email"
+            name="basement-email"
+            id="basement-email"
+            placeholder="E-mail"
+            class="basement-form__input"
+          />
+        </form>
+        <button type="submit" class="basement-form__submit">
+          Подписаться
+          <svg class="basement-submit-icon">
+            <use href="./images/icons.svg#icon-send"></use>
+          </svg>
+        </button>
+      </div>
+    </footer>
+  </body>
+</html>
