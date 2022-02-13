@@ -89,7 +89,7 @@ body button {
   position: absolute;
   bottom: 0;
   left: 0;
-  content: "";
+  content: '';
   display: inline-block;
   opacity: 0;
   width: 100%;
@@ -374,12 +374,9 @@ body button {
   background-color: var(--main-background-color);
 }
 
-.basement-logo.logo-main {
+.basement__logo {
   display: inline-block;
   margin-bottom: 20px;
-}
-
-.basement-logo {
   color: var(--white);
 }
 
@@ -475,7 +472,7 @@ body button {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.basement-form__submit[type="submit"] {
+.basement-form__submit[type='submit'] {
   margin: 48px 0 0;
   width: 200px;
   height: 50px;
@@ -719,7 +716,7 @@ body button {
   border-radius: 50%;
 }
 
-[type="checkbox"] {
+[type='checkbox'] {
   margin-right: 8.38px;
 }
 
@@ -735,7 +732,7 @@ body button {
   text-decoration: underline 1px solid;
 }
 
-.modal-form__contract + [type="submit"] {
+.modal-form__contract + [type='submit'] {
   display: block;
   margin-left: auto;
   margin-right: auto;

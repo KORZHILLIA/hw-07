@@ -416,13 +416,15 @@
     <footer class="basement">
       <div class="container flexy">
         <div class="basement-logo-and-address">
-          <a href="index.html" class="basement-logo logo-main">
+          <a href="index.html" class="basement__logo logo-main">
             <span class="logo-main__accent">Web</span><span class="basement-logo">Studio</span>
           </a>
           <address class="basement-address">
             <ul class="basement-address-list no-style-list">
               <li>
-                <a class="basement-address__phys-address" href="#">г. Киев, пр-т Леси Украинки, 26</a>
+                <a class="basement-address__phys-address" href="#"
+                  >г. Киев, пр-т Леси Украинки, 26</a
+                >
               </li>
               <li>
                 <a class="basement-address__mail" href="info@example.com">info@example.com</a>
@@ -468,9 +470,16 @@
         </div>
         <form class="basement-form">
           <label for="basement-email" class="basement-form__label">Подпишитесь на рассылку</label>
-          <input type="email" name="basement-email" id="basement-email" placeholder="E-mail" class="basement-form__input">
+          <input
+            type="email"
+            name="basement-email"
+            id="basement-email"
+            placeholder="E-mail"
+            class="basement-form__input"
+          />
         </form>
-        <button type="submit" class="basement-form__submit">Подписаться
+        <button type="submit" class="basement-form__submit">
+          Подписаться
           <svg class="basement-submit-icon">
             <use href="./images/icons.svg#icon-send"></use>
           </svg>
